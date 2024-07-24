@@ -84,12 +84,12 @@ body.theme-dark {
     --color-base-00: var(--color-background-6);
     --color-base-10: var(--color-background-2);
     --color-base-20: var(--color-background-4);
-    --color-base-25: green;
+    --color-base-25: var(--color-background-3);
     --color-base-30: var(--color-background-4);
-    --color-base-35: green;
+    --color-base-35: var(--color-background-7);
     --color-base-40: var(--color-background-2);
     --color-base-50: var(--color-background-1);
-    --color-base-60: green;
+    --color-base-60: blue;
     --color-base-70: var(--color-foreground-3);
     --color-base-100: var(--color-foreground-1);
 
@@ -153,7 +153,7 @@ body.theme-light {
     --color-base-50: var(--color-foreground-2);
     --color-base-60: green;
     --color-base-70: var(--color-foreground-3);
-    --color-base-100: var(--accent-1);
+    --color-base-100: var(--accent-2);
 
     --table-header-background: var(--color-background-3);
 }
