@@ -76,10 +76,11 @@ body.theme-dark {
     color: var(--color-foreground-1);
 	
     --bold-color: var(--accent-1);
-    --text-selection: var(--color-background-2);
+    --text-selection: var(--color-background-3);
 
 	--h1-color: var(--accent-1);
 	--h2-color: var(--accent-2);
+	--hr-color: var(--color-background-1);
 
     --color-base-00: var(--color-background-6);
     --color-base-10: var(--color-background-2);
