@@ -1,3 +1,12 @@
+/* ==
+@name             Dracula for Obsidian
+@namespace        github.com/druxorey/dracula-for-obsidian
+@version          1.0.1
+@description      Are you tired of the same boring colors on Obsidian? Then try this modern color style based on the Dracula theme
+@author           Druxorey
+@license          GNU General Public License v3.0
+== */
+
 * {
     --color-comment: #6272A4;
 
