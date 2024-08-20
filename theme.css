@@ -68,12 +68,10 @@ body {
 
 body.theme-dark {
     --color-background-1: #525568;
-    --color-background-2: #44475A;
-    --color-background-3: #383b4b;
-    --color-background-4: #282A36;
-    --color-background-5: #23252f;
-    --color-background-6: #1f1f28;
-    --color-background-7: #1b1c24;
+    --color-background-2: #44475a;
+    --color-background-3: #353747;
+    --color-background-4: #282a36;
+    --color-background-5: #21222c;
 
     --color-foreground-1: #F8F8F2;
     --color-foreground-2: #D9DADF;
@@ -91,12 +89,12 @@ body.theme-dark {
 	--h2-color: var(--accent-2);
 	--hr-color: var(--color-background-1);
 
-    --color-base-00: var(--color-background-6);
-    --color-base-10: var(--color-background-2);
+    --color-base-00: var(--color-background-5);
+    --color-base-10: var(--color-background-3);
     --color-base-20: var(--color-background-4);
     --color-base-25: var(--color-background-3);
     --color-base-30: var(--color-background-4);
-    --color-base-35: var(--color-background-7);
+    --color-base-35: var(--color-background-2);
     --color-base-40: var(--color-background-2);
     --color-base-50: var(--color-background-1);
     --color-base-60: blue;
@@ -107,9 +105,9 @@ body.theme-dark {
 }
 
 body.theme-dark.is-mobile {
-    --color-base-00: var(--color-background-7);
-    --color-base-10: var(--color-background-6);
-    --color-base-20: var(--color-background-5);
+    --color-base-00: var(--color-background-5);
+    --color-base-10: var(--color-background-4);
+    --color-base-20: var(--color-background-3);
 }
 
 .theme-dark .workspace-split.mod-root .view-content {
@@ -124,7 +122,7 @@ body.theme-dark.is-mobile {
 }
 
 .theme-dark .nav-header {
-    background-color: var(--color-background-6);
+    background-color: var(--color-background-5);
     margin: 10px;
     border-radius: 10px;
 }
@@ -135,8 +133,6 @@ body.theme-light {
     --color-background-3: #DCDDE5;
     --color-background-4: #D0D2DC;
     --color-background-5: #C4C7D4;
-    --color-background-6: #B9BBCB;
-    --color-background-7: #ADB0C2;
 
     --color-foreground-1: #44475A;
     --color-foreground-2: #282A36;
@@ -154,16 +150,16 @@ body.theme-light {
 	--h2-color: var(--accent-2);
 
     --color-base-00: var(--color-background-3);
-    --color-base-10: var(--color-background-1);
+    --color-base-10: var(--color-background-2);
     --color-base-20: var(--color-background-1);
     --color-base-25: green;
     --color-base-30: var(--color-background-3);
-    --color-base-35: var(--color-background-7);
+    --color-base-35: var(--color-background-2);
     --color-base-40: var(--color-background-5);
     --color-base-50: var(--color-foreground-2);
     --color-base-60: green;
     --color-base-70: var(--color-foreground-3);
-    --color-base-100: var(--accent-2);
+    --color-base-100: var(--accent-1);
 
     --table-header-background: var(--color-background-3);
 }
