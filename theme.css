@@ -74,8 +74,8 @@ body.theme-dark {
     --color-background-5: #21222c;
 
     --color-foreground-1: #F8F8F2;
-    --color-foreground-2: #D9DADF;
-    --color-foreground-3: #B9BBCB;
+    --color-foreground-2: #E3E3E2;
+    --color-foreground-3: #C6C7CC;
 
 	--accent-1: #BD93F9;
 	--accent-2: #FF79C6;
@@ -135,8 +135,8 @@ body.theme-light {
     --color-background-5: #C4C7D4;
 
     --color-foreground-1: #44475A;
-    --color-foreground-2: #282A36;
-    --color-foreground-3: #1f1f28;
+    --color-foreground-2: #353747;
+    --color-foreground-3: #282A36;
 
 	--accent-1: #BD93F9;
 	--accent-2: #FF79C6;
