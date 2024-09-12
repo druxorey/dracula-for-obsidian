@@ -1,7 +1,7 @@
 /* ==
 @name             Dracula for Obsidian
 @namespace        github.com/druxorey/dracula-for-obsidian
-@version          1.0.1
+@version          1.1.0
 @description      Are you tired of the same boring colors on Obsidian? Then try this modern color style based on the Dracula theme
 @author           Druxorey
 @license          GNU General Public License v3.0
@@ -21,26 +21,18 @@
 }
 
 body {
-    --h1-weight: 900;
+    --h1-weight: 600;
     --h2-weight: 600;
     --h3-weight: 550;
     --h4-weight: 550;
     --h5-weight: 550;
     --h6-weight: 550;
 
-    --h1-size: 2.15em;
-    --h2-size: 1.75em;
-    --h3-size: 1.50em;
-    --h4-size: 1.25em;
-    --h5-size: 1.15em;
-    --h5-size: 1.00em;
+    --h1-size: 2em;
+    --h2-size: 1.5em;
 
     --h1-line-height: 1.75em;
     --h2-line-height: 1.50em;
-    --h3-line-height: 1.50em;
-    --h4-line-height: 1.25em;
-    --h5-line-height: 1.25em;
-    --h6-line-height: 1.15em;
 
     --code-comment: var(--color-comment);
     --code-function: var(--color-green);
@@ -74,19 +66,17 @@ body.theme-dark {
     --color-background-5: #21222c;
 
     --color-foreground-1: #F8F8F2;
-    --color-foreground-2: #E3E3E2;
-    --color-foreground-3: #C6C7CC;
+    --color-foreground-2: #D9DADF;
+    --color-foreground-3: #B9BBCB;
 
 	--accent-1: #BD93F9;
 	--accent-2: #FF79C6;
 
     color: var(--color-foreground-1);
 	
-    --bold-color: var(--accent-1);
+    --bold-color: var(--accent-2);
     --text-selection: var(--color-background-3);
 
-	--h1-color: var(--accent-1);
-	--h2-color: var(--accent-2);
 	--hr-color: var(--color-background-1);
 
     --color-base-00: var(--color-background-5);
@@ -146,9 +136,6 @@ body.theme-light {
     --bold-color: var(--accent-1);
     --text-selection: var(--color-background-6);
 
-	--h1-color: var(--accent-1);
-	--h2-color: var(--accent-2);
-
     --color-base-00: var(--color-background-3);
     --color-base-10: var(--color-background-2);
     --color-base-20: var(--color-background-1);
@@ -188,6 +175,16 @@ body.theme-light {
 
 .markdown-source-view .cm-string.cm-url {
     color: var(--color-cyan);
+}
+
+.cm-header-1::after, .cm-header-2::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid #44475a;
+    width: 100%;
+	margin: -2px;
+    position: absolute;
+    left: 0;
 }
 
 @media (max-width: 1000px) {
