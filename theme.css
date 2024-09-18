@@ -31,9 +31,6 @@ body {
     --h1-size: 2em;
     --h2-size: 1.5em;
 
-    --h1-line-height: 1.75em;
-    --h2-line-height: 1.50em;
-
     --code-comment: var(--color-comment);
     --code-function: var(--color-green);
     --code-important: var(--color-red);
@@ -153,8 +150,7 @@ body.theme-light {
 
 .theme-light .workspace-split.mod-root .view-content {
     background-color: var(--color-background-1);
-    margin: 20px auto;
-    border-radius: 10px;
+    margin: 20px auto; border-radius: 10px;
     width: calc(100% - 8vw);
     max-width: 1000px;
     align-self: center;
@@ -175,16 +171,6 @@ body.theme-light {
 
 .markdown-source-view .cm-string.cm-url {
     color: var(--color-cyan);
-}
-
-.cm-header-1::after, .cm-header-2::after {
-    content: "";
-    display: block;
-    border-bottom: 1px solid #44475a;
-    width: 100%;
-	margin: -2px;
-    position: absolute;
-    left: 0;
 }
 
 @media (max-width: 1000px) {
