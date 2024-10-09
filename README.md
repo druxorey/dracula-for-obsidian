@@ -1,5 +1,5 @@
 
-<h1 align="center">Dracula for Obsidian</h1>
+<h1 align="center">Dracula For Obsidian</h1>
 
 <p align="center">Are you tired of the same boring colors on Obsidian? Then try this theme</p>
 
@@ -16,7 +16,7 @@ To install the theme
 
 ## Contribute
 
-If you want to add new exercises or improve existing ones, follow these steps:
+If you encounter any errors or issues with the style, please open an issue in this repository. Be sure to provide specific details on how to reproduce the problem.
 
 1. Open an issue to discuss the changes.
 2. Fork this repository.
