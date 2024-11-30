@@ -1,11 +1,13 @@
 /* ==
 @name             Dracula for Obsidian
 @namespace        github.com/druxorey/dracula-for-obsidian
-@version          1.1.0
+@version          1.1.1
 @description      Are you tired of the same boring colors on Obsidian? Then try this modern color style based on the Dracula theme
 @author           Druxorey
 @license          GNU General Public License v3.0
 == */
+
+/* == VARIABLES == */
 
 :root {
     --color-comment: #6272A4;
@@ -19,6 +21,8 @@
     --color-purple: #BD93F9;
     --color-pink: #FF79C6;
 }
+
+/* == BASE == */
 
 body {
     --h1-weight: 600;
@@ -56,6 +60,7 @@ body {
     --checklist-done-decoration: none;
 }
 
+/* == DARK THEME == */
 
 body.theme-dark {
     --color-background-1: #525568;
@@ -101,20 +106,13 @@ body.theme-dark.is-mobile {
 
 .theme-dark .workspace-split.mod-root .view-content {
     background-color: var(--color-background-4);
-    margin: 20px auto;
-    border-radius: 10px;
-    width: calc(100% - 8vw);
-    max-width: 1000px;
-    align-self: center;
-    overflow-y: scroll;
-    transition: margin 0.25s ease-out, border-radius 0.25s ease-out, width 0.25s ease-out;
 }
 
 .theme-dark .nav-header {
     background-color: var(--color-background-5);
-    margin: 10px;
-    border-radius: 10px;
 }
+
+/* == LIGHT THEME == */
 
 body.theme-light {
     --color-background-1: #F3F4F6;
@@ -150,9 +148,25 @@ body.theme-light {
     --table-header-background: var(--color-background-3);
 }
 
+body.theme-light.is-mobile {
+    --color-base-00: var(--color-background-5);
+    --color-base-10: var(--color-background-4);
+    --color-base-20: var(--color-background-3);
+}
+
 .theme-light .workspace-split.mod-root .view-content {
     background-color: var(--color-background-1);
-    margin: 20px auto; border-radius: 10px;
+}
+
+.theme-light .nav-header {
+    background-color: var(--color-background-3);
+}
+
+/* == GENERAL CLASSES == */
+
+.workspace-split.mod-root .view-content {
+    margin: 20px auto;
+    border-radius: 10px;
     width: calc(100% - 8vw);
     max-width: 1000px;
     align-self: center;
@@ -160,8 +174,7 @@ body.theme-light {
     transition: margin 0.25s ease-out, border-radius 0.25s ease-out, width 0.25s ease-out;
 }
 
-.theme-light .nav-header {
-    background-color: var(--color-background-3);
+.nav-header {
     margin: 10px;
     border-radius: 10px;
 }
