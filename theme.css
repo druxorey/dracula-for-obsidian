@@ -7,7 +7,7 @@
 @license          GNU General Public License v3.0
 == */
 
-* {
+:root {
     --color-comment: #6272A4;
 
     --color-red: #ff5555;
@@ -68,12 +68,12 @@ body.theme-dark {
     --color-foreground-2: #D9DADF;
     --color-foreground-3: #B9BBCB;
 
-	--accent-1: #BD93F9;
-	--accent-2: #FF79C6;
+	--color-accent-1: #BD93F9;
+	--color-accent-2: #FF79C6;
 
     color: var(--color-foreground-1);
 	
-    --bold-color: var(--accent-2);
+    --bold-color: var(--color-accent-2);
     --text-selection: var(--color-background-3);
 
 	--hr-color: var(--color-background-1);
@@ -127,12 +127,12 @@ body.theme-light {
     --color-foreground-2: #353747;
     --color-foreground-3: #282A36;
 
-	--accent-1: #BD93F9;
-	--accent-2: #FF79C6;
+	--color-accent-1: #BD93F9;
+	--color-accent-2: #FF79C6;
 
     color: var(--color-foreground-1);
 	
-    --bold-color: var(--accent-1);
+    --bold-color: var(--color-accent-1);
     --text-selection: var(--color-background-6);
 
     --color-base-00: var(--color-background-3);
@@ -145,7 +145,7 @@ body.theme-light {
     --color-base-50: var(--color-foreground-2);
     --color-base-60: green;
     --color-base-70: var(--color-foreground-3);
-    --color-base-100: var(--accent-1);
+    --color-base-100: var(--color-accent-1);
 
     --table-header-background: var(--color-background-3);
 }
