@@ -133,19 +133,19 @@ body.theme-light {
     color: var(--color-foreground-1);
 	
     --bold-color: var(--color-accent-1);
-    --text-selection: var(--color-background-6);
+    --text-selection: var(--color-background-3);
 
-    --color-base-00: var(--color-background-3);
+    --color-base-00: var(--color-background-2);
     --color-base-10: var(--color-background-2);
     --color-base-20: var(--color-background-1);
     --color-base-25: green;
-    --color-base-30: var(--color-background-3);
-    --color-base-35: var(--color-background-2);
-    --color-base-40: var(--color-background-5);
-    --color-base-50: var(--color-foreground-2);
+    --color-base-30: var(--color-background-4);
+    --color-base-35: var(--color-background-4);
+    --color-base-40: var(--color-background-3);
+    --color-base-50: var(--color-foreground-1);
     --color-base-60: green;
-    --color-base-70: var(--color-foreground-3);
-    --color-base-100: var(--color-accent-1);
+    --color-base-70: var(--color-foreground-1);
+    --color-base-100: var(--color-foreground-3);
 
     --table-header-background: var(--color-background-3);
 }
@@ -161,7 +161,7 @@ body.theme-light {
 }
 
 .theme-light .nav-header {
-    background-color: var(--color-background-4);
+    background-color: var(--color-background-3);
     margin: 10px;
     border-radius: 10px;
 }
