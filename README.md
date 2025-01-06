@@ -31,3 +31,7 @@ If you encounter any errors or issues with the style, please open an issue in th
 ## License
 
 This project is licensed under the GPL-3.0 License. See the [LICENSE](LICENSE) file for more details.
+
+## Credits
+
+- Original color theme by [Zeno Rocha](https://github.com/dracula/dracula-theme)
