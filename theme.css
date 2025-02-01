@@ -1,13 +1,11 @@
 /* ==
 @name             Minimal Dracula
 @namespace        github.com/druxorey/minimal-dracula-for-obsidian
-@version          1.2.0
+@version          1.2.1
 @description      Are you tired of the same boring colors on Obsidian? Then try this modern color style based on the Dracula theme
 @author           Druxorey
 @license          GNU General Public License v3.0
 == */
-
-/* == VARIABLES == */
 
 :root {
     --color-comment: #6272A4;
@@ -21,8 +19,6 @@
     --color-purple: #BD93F9;
     --color-pink: #FF79C6;
 }
-
-/* == BASE == */
 
 body {
     --h1-weight: 600;
@@ -88,7 +84,7 @@ body.theme-dark {
     color: var(--color-foreground-1);
 	
     --bold-color: var(--color-foreground-1);
-    --text-selection: var(--color-background-3);
+    --text-selection: #BD93F988;
 
 	--hr-color: var(--color-background-1);
 
@@ -100,9 +96,9 @@ body.theme-dark {
     --color-base-35: var(--color-background-2);
     --color-base-40: var(--color-background-2);
     --color-base-50: var(--color-background-1);
-    --color-base-60: red;
+    --color-base-60: blue;
     --color-base-70: var(--color-foreground-3);
-    --color-base-100: var(--color-foreground-1);
+    --color-base-100: var(--color-foreground-2);
 
     --table-header-background: var(--color-background-3);
 }
@@ -140,21 +136,21 @@ body.theme-light {
     color: var(--color-foreground-1);
 	
     --bold-color: var(--color-accent-1);
-    --text-selection: var(--color-background-3);
+    --text-selection: #BD93F988;
 
 	--hr-color: var(--color-background-3);
 
     --color-base-00: var(--color-background-3);
     --color-base-10: var(--color-background-4);
     --color-base-20: var(--color-background-1);
-    --color-base-25: green;
+    --color-base-25: blue;
     --color-base-30: var(--color-background-2);
     --color-base-35: var(--color-background-4);
     --color-base-40: var(--color-background-3);
     --color-base-50: var(--color-background-5);
-    --color-base-60: green;
+    --color-base-60: blue;
     --color-base-70: var(--color-foreground-1);
-    --color-base-100: var(--color-foreground-3);
+    --color-base-100: var(--color-foreground-1);
 
     --table-header-background: var(--color-background-3);
 }
@@ -199,7 +195,7 @@ body.theme-light.is-mobile {
     color: var(--color-cyan);
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
     .workspace-split.mod-root .view-content {
         border-radius: 0px;
         margin: 0vh 0vw;
